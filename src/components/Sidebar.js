@@ -1,4 +1,4 @@
-import CartItem from "../components/CartItem";
+import CartItem from "./CartItem";
 import { CartContext } from "../contexts/CartContext";
 import { SidebarContext } from "../contexts/SidebarContext";
 import React, { useContext, useEffect } from "react";
