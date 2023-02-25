@@ -1,8 +1,9 @@
-import CartItem from "./CartItem";
+import React, { useContext } from "react";
+import { Link } from "react-router-dom";
+
 import { CartContext } from "../contexts/CartContext";
 import { SidebarContext } from "../contexts/SidebarContext";
-import React, { useContext, useEffect } from "react";
-import { Link } from "react-router-dom";
+import CartItem from "./CartItem";
 
 const Sidebar = () => {
   const { isOpen, handleClose } = useContext(SidebarContext);
