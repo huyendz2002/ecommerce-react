@@ -30,7 +30,7 @@ const Hero = () => {
         </div>
         <div className="absolute top-20 right-0 h-4/5">
           <img
-            className="h-full w-full"
+            className="h-full w-full max-[426px]:hidden"
             src="https://img5.thuthuatphanmem.vn/uploads/2021/11/26/anh-co-gai-cam-hoa-to-va-dep_031536123.jpg"
             alt=""
           />
